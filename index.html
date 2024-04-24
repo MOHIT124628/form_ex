@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation Part 1</title>
+</head>
+<body>
+    <fieldset>
+        <legend><mark><b>Personal details</b></mark></legend>
+        <br>
+        <label for="name"><b>Name : </b></label>
+        <input type="text" id="name"> <br> <br>
+
+        <label ><b>College : </b></label>
+        <input list="ils">
+        <datalist id="ils">
+            <option>MIC</option>
+            <option>MKK</option>
+            <option>KKK</option>
+            <option>RCB</option>
+        </datalist>
+        <br><br>
+
+        <label for=""><b>Department : </b></label>
+        <br><br>
+        <input type="radio" name="dept" id="cs">
+        <label for="cs">Computer Science</label>
+
+        <input type="radio" name="dept" id="ec">
+        <label for="ec">ECE</label>
+
+        <input type="radio" name="dept" id="civil">
+        <label for="civil">CIVIL</label>
+
+        <input type="radio" name="dept" id="mec">
+        <label for="mec">MECH</label>
+        <br><br>
+        <label for="ema"><b>Email : </b></label>
+        <input type="email" id="ema"> <br><br>
+
+        <label for="pas"><b>Password : </b></label>
+        <input type="password" name="" id="pas">
+
+        <center>
+            <input type="submit" value="< Pre">
+            <a href="tq.html"><input type="submit" value="Login"></a>
+            <input type="submit" value="Next >">
+        </center>
+    </fieldset>
+    <br><br>
+    <fieldset>
+
+        <legend><mark><b>More About You</b></mark></legend><br>
+        <label for=""><b>Skills : </b></label><br><br>
+
+        <input type="checkbox" id="html">
+        <label for="html">HTML</label>
+
+        <input type="checkbox" id="css">
+        <label for="css">CSS</label>
+        
+        <input type="checkbox" id="js">
+        <label for="js">JAVASCRIPT</label><br><br>
+    
+        <label for=""><b>Hobbies : </b></label><br><br>
+
+        <input type="radio" name="ho" id="drawing">
+        <label for="drawing">DRAWING</label>
+
+        <input type="radio" name="ho" id="CRICKET">
+        <label for="CRICKET">CRICKET</label>
+
+        <input type="radio" name="ho" id="bass">
+        <label for="bass">BASKETBALL</label><br><br>
+        <center>
+            <a href="tq.html"><input type="submit" value="nice"></a>
+        </center>
+        
+    </fieldset>
+
+</body>
+</html>
